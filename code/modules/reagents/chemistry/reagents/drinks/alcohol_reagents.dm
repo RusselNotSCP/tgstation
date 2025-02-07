@@ -2892,6 +2892,96 @@
 	quality = DRINK_VERYGOOD
 	taste_description = "the aloha state"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	
+/datum/reagent/consumable/ethanol/boston_sour
+	name = "Boston Sour"
+	description = "FIX ME"
+	boozepwr = 35
+	color = "#ddc28b"
+	quality = DRINK_VERYGOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/star
+	name = "Star"
+	description = "FIX ME"
+	boozepwr = 40
+	color = "#e5a654"
+	quality = DRINK_GOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/old_fashioned
+	name = "Old Fashioned"
+	description = "FIX ME"
+	boozepwr = 60
+	color = "#b4a287"
+	quality = DRINK_GOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/sazerac
+	name = "Sazerac"
+	description = "FIX ME"
+	boozepwr = 65
+	color = "#f43f69"
+	quality = DRINK_GOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/amaretto_sour
+	name = "Amaretto Sour"
+	description = "FIX ME"
+	boozepwr = 15
+	color = "#ddc28b"
+	quality = DRINK_VERYGOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/ramos_gin_fizz
+	name = "Ramos Gin Fizz"
+	description = "FIX ME"
+	boozepwr = 35
+	color = "#f9e7c2"
+	quality = DRINK_FANTASTIC
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/french_75
+	name = "French 75"
+	description = "FIX ME"
+	boozepwr = 30
+	color = "#ffffc1"
+	quality = DRINK_GOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/sangria
+	name = "Sangria"
+	description = "FIX ME"
+	boozepwr = 20
+	color = "#c4383b"
+	quality = DRINK_GOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/suffering_bastard
+	name = "Suffering Bastard"
+	description = "FIX ME"
+	boozepwr = 20
+	color = "#e8ca78"
+	quality = DRINK_VERYGOOD
+	taste_description = "FIX ME"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/blue_blazer
+	name = "Blue Blazer"
+	description = "The signature drink of a legendary bartender from the 19th century. While undeniably impressive and aesthetically beautiful, at the end of the day it's really just warmed and sweetened whiskey. Not to be served if it's above fifty degrees farenheit outside, although that's not much of a concern on a space station."
+	boozepwr = 40
+	color = "#b5949b"
+	quality = DRINK_NICE
+	taste_description = "scorched sweet whiskey"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER

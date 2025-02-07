@@ -1030,6 +1030,76 @@
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "blue_hawaiian"
 
+/datum/glass_style/drinking_glass/boston_sour
+	required_drink_type = /datum/reagent/consumable/ethanol/boston_sour
+	name = "Boston Sour"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "boston_sour"
+
+/datum/glass_style/drinking_glass/star
+	required_drink_type = /datum/reagent/consumable/ethanol/star
+	name = "Star"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "star"
+
+/datum/glass_style/drinking_glass/old_fashioned
+	required_drink_type = /datum/reagent/consumable/ethanol/old_fashioned
+	name = "Old Fashioned"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "old_fashioned"
+
+/datum/glass_style/drinking_glass/sazerac
+	required_drink_type = /datum/reagent/consumable/ethanol/sazerac
+	name = "Sazerac"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "sazerac"
+
+/datum/glass_style/drinking_glass/amaretto_sour
+	required_drink_type = /datum/reagent/consumable/ethanol/amaretto_sour
+	name = "Amaretto Sour"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "amaretto_sour"
+
+/datum/glass_style/drinking_glass/ramos_gin_fizz
+	required_drink_type = /datum/reagent/consumable/ethanol/ramos_gin_fizz
+	name = "Ramos Gin Fizz"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "ramos_gin_fizz"
+
+/datum/glass_style/drinking_glass/french_75
+	required_drink_type = /datum/reagent/consumable/ethanol/french_75
+	name = "French 75"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "french_75"
+
+/datum/glass_style/drinking_glass/sangria
+	required_drink_type = /datum/reagent/consumable/ethanol/sangria
+	name = "Sangria"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "sangria"
+
+/datum/glass_style/drinking_glass/suffering_bastard
+	required_drink_type = /datum/reagent/consumable/ethanol/suffering_bastard
+	name = "Suffering Bastard"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "suffering_bastard"
+
+/datum/glass_style/drinking_glass/blue_blazer
+	required_drink_type = /datum/reagent/consumable/ethanol/blue_blazer
+	name = "Blue Blazer"
+	desc = "FIX ME"
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "blue_blazer"
+
 // Shot glasses
 
 /datum/glass_style/shot_glass/toxins_special

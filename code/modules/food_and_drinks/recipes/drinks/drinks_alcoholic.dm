@@ -656,3 +656,39 @@
 /datum/chemical_reaction/drink/blue_hawaiian
 	results = list(/datum/reagent/consumable/ethanol/blue_hawaiian = 5)
 	required_reagents = list(/datum/reagent/consumable/ethanol/coconut_rum = 2, /datum/reagent/consumable/pineapplejuice = 1, /datum/reagent/consumable/lemonjuice = 1, /datum/reagent/consumable/ethanol/curacao = 1)
+
+/datum/chemical_reaction/drink/boston_sour
+	results = list(/datum/reagent/consumable/ethanol/boston_sour = 15)
+	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey_sour = 15, /datum/reagent/consumable/eggwhite = 2)
+
+/datum/chemical_reaction/drink/star
+	results = list(/datum/reagent/consumable/ethanol/star = 12)
+	required_reagents = list(/datum/reagent/consumable/ethanol/applejack = 5, /datum/reagent/consumable/ethanol/vermouth = 5, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/sugar = 1)
+
+/datum/chemical_reaction/drink/old_fashioned
+	results = list(/datum/reagent/consumable/ethanol/old_fashioned = 10)
+	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 8, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/ethanol/bitters = 1)
+
+/datum/chemical_reaction/drink/sazerac
+	results = list(/datum/reagent/consumable/ethanol/sazerac = 10)
+	required_reagents = list(/datum/reagent/consumable/ethanol/old_fashioned = 10, /datum/reagent/consumable/ethanol/absinthe = 1)
+
+/datum/chemical_reaction/drink/amaretto_sour
+	results = list(/datum/reagent/consumable/ethanol/amaretto_sour = 15)
+	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 10, /datum/reagent/consumable/lemonjuice = 5, /datum/reagent/consumable/eggwhite = 2)
+
+/datum/chemical_reaction/drink/ramos_gin_fizz
+	results = list(/datum/reagent/consumable/ethanol/ramos_gin_fizz = 25)
+	required_reagents = list(/datum/reagent/consumable/ethanol/ginfizz = 12, /datum/reagent/consumable/lemonjuice = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/eggwhite = 3, /datum/reagent/consumable/cream = 3, /datum/reagent/consumable/ethanol/triple_sec = 1)
+
+/datum/chemical_reaction/drink/french_75
+	results = list(/datum/reagent/consumable/ethanol/french_75 = 10)
+	required_reagents = list(/datum/reagent/consumable/ethanol/champagne = 5, /datum/reagent/consumable/ethanol/gin = 3, /datum/reagent/consumable/lemonjuice = 1, /datum/reagent/consumable/sugar = 1)
+
+/datum/chemical_reaction/drink/sangria
+	results = list(/datum/reagent/consumable/ethanol/sangria = 20)
+	required_reagents = list(/datum/reagent/consumable/ethanol/wine = 10, /datum/reagent/consumable/ethanol/cognac = 3, /datum/reagent/consumable/triple_citrus = 3, /datum/reagent/consumable/sodawater = 3, /datum/reagent/consumable/sugar = 1)
+
+/datum/chemical_reaction/drink/suffering_bastard
+	results = list(/datum/reagent/consumable/ethanol/suffering_bastard = 20)
+	required_reagents = list(/datum/reagent/consumable/sol_dry = 10, /datum/reagent/consumable/ethanol/cognac = 3, /datum/reagent/consumable/ethanol/gin = 3, /datum/reagent/consumable/limejuice = 2, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/sugar = 1)
