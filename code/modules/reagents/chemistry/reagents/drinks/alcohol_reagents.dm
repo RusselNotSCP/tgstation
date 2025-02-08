@@ -2922,7 +2922,7 @@
 
 /datum/reagent/consumable/ethanol/sazerac
 	name = "Sazerac"
-	description = "Whiskey made aromatic by absinthe and creole bitters"
+	description = "Whiskey made aromatic by absinthe and creole bitters."
 	boozepwr = 65
 	color = "#f43f69"
 	quality = DRINK_GOOD
