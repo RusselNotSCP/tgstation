@@ -1033,70 +1033,70 @@
 /datum/glass_style/drinking_glass/boston_sour
 	required_drink_type = /datum/reagent/consumable/ethanol/boston_sour
 	name = "Boston Sour"
-	desc = "FIX ME"
+	desc = "A classic twist upon a whiskey sour that uses an egg white to provide texture and structure. Despite what some say, the egg white is not sterilized by the alcohol of the whiskey, but if the eggs are handled properly it's probably fine..."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "boston_sour"
 
 /datum/glass_style/drinking_glass/star
 	required_drink_type = /datum/reagent/consumable/ethanol/star
 	name = "Star"
-	desc = "FIX ME"
+	desc = "This cocktail takes rustic applejack and refines it with sweet vermouth. As comfortable out in the orchard as it is within the estate."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "star"
 
 /datum/glass_style/drinking_glass/old_fashioned
 	required_drink_type = /datum/reagent/consumable/ethanol/old_fashioned
 	name = "Old Fashioned"
-	desc = "FIX ME"
+	desc = "Depending on your definitions, this drink is a form of the original cocktail. However, seemingly antiquated traditions such as the muddling of a sugar cube in the glass are actually somewhat anachronistic, introduced after the drink had already been around long enough to earn it's name."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "old_fashioned"
 
 /datum/glass_style/drinking_glass/sazerac
 	required_drink_type = /datum/reagent/consumable/ethanol/sazerac
 	name = "Sazerac"
-	desc = "FIX ME"
+	desc = "A classic cocktail from New Orleans, this drink uses creole style bitters and an absinthe rinse of the serving glass to impart a delightful anise scent to whiskey."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "sazerac"
 
 /datum/glass_style/drinking_glass/amaretto_sour
 	required_drink_type = /datum/reagent/consumable/ethanol/amaretto_sour
 	name = "Amaretto Sour"
-	desc = "FIX ME"
+	desc = "This sweet play on the sour formula has gained popularity among tizirian audiences due to it's nutty-eggy nature. It's still perfectly suited to most anyone's palette, as long as they're not vegan."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "amaretto_sour"
 
 /datum/glass_style/drinking_glass/ramos_gin_fizz
 	required_drink_type = /datum/reagent/consumable/ethanol/ramos_gin_fizz
 	name = "Ramos Gin Fizz"
-	desc = "FIX ME"
+	desc = "This cocktail commits the heresy of combining citrus and cream, but with proper technique avoids curdling and creates a beautifully textural head of foam. Famously delicious, famously innovative, famously annoying to make."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "ramos_gin_fizz"
 
 /datum/glass_style/drinking_glass/french_75
 	required_drink_type = /datum/reagent/consumable/ethanol/french_75
 	name = "French 75"
-	desc = "FIX ME"
+	desc = "Named after a field artillery piece used by french forces in the early 20th century, this classy champagne cocktail has changed many times throughout history, although it's ability to evoke victory has remained constant."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "french_75"
 
 /datum/glass_style/drinking_glass/sangria
 	required_drink_type = /datum/reagent/consumable/ethanol/sangria
 	name = "Sangria"
-	desc = "FIX ME"
+	desc = "A fruit-infused wine punch that is a perfect beverage to drink out of the largest wine glass you can get on a hot summer day. The name being a reference to bloodletting is hopefully just a reference to the color."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "sangria"
 
 /datum/glass_style/drinking_glass/suffering_bastard
 	required_drink_type = /datum/reagent/consumable/ethanol/suffering_bastard
 	name = "Suffering Bastard"
-	desc = "FIX ME"
+	desc = "Originally meant as a hangover cure for soldiers away from home, this tiki drink makes the odd combination of gin and cognac with ginger beer to remarkable effect."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "suffering_bastard"
 
 /datum/glass_style/drinking_glass/blue_blazer
 	required_drink_type = /datum/reagent/consumable/ethanol/blue_blazer
 	name = "Blue Blazer"
-	desc = "FIX ME"
+	desc = "A visually stunning drink created by one of the fathers of cocktail bartending, made by tossing flaming whiskey between two glasses. Not to be served if it's above fifty degrees farenheit outside, although that's not much of a concern on a space station."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "blue_blazer"
 

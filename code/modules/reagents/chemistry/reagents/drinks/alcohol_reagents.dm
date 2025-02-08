@@ -2895,88 +2895,88 @@
 	
 /datum/reagent/consumable/ethanol/boston_sour
 	name = "Boston Sour"
-	description = "FIX ME"
+	description = "Whiskey sour texturally elevated by an egg white."
 	boozepwr = 35
 	color = "#ddc28b"
 	quality = DRINK_VERYGOOD
-	taste_description = "FIX ME"
+	taste_description = "foamy lemony sourness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/star
 	name = "Star"
-	description = "FIX ME"
+	description = "A blend of applejack and vermouth accented with bitters."
 	boozepwr = 40
 	color = "#e5a654"
 	quality = DRINK_GOOD
-	taste_description = "FIX ME"
+	taste_description = "vinous apples"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/old_fashioned
 	name = "Old Fashioned"
-	description = "FIX ME"
+	description = "By some measures the first cocktail, made by flavoring a hard spirit with sugar and bitters, with the spirit in question most often being whiskey in modern times."
 	boozepwr = 60
 	color = "#b4a287"
 	quality = DRINK_GOOD
-	taste_description = "FIX ME"
+	taste_description = "rounded out whiskey"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/sazerac
 	name = "Sazerac"
-	description = "FIX ME"
+	description = "Whiskey made aromatic by absinthe and creole bitters"
 	boozepwr = 65
 	color = "#f43f69"
 	quality = DRINK_GOOD
-	taste_description = "FIX ME"
+	taste_description = "flowery anise-scented whiskey"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/amaretto_sour
 	name = "Amaretto Sour"
-	description = "FIX ME"
+	description = "The sour formula applied to sweet amaretto."
 	boozepwr = 15
 	color = "#ddc28b"
 	quality = DRINK_VERYGOOD
-	taste_description = "FIX ME"
+	taste_description = "foamy lemony sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/ramos_gin_fizz
 	name = "Ramos Gin Fizz"
-	description = "FIX ME"
+	description = "A complex twist on the concept of a gin fizz, adding cream and egg white along side lemon juice for an incomparable textural experience. In this version, the drink's signature usage of orange blossom water is replaced with a drop of orange liqueur."
 	boozepwr = 35
 	color = "#f9e7c2"
 	quality = DRINK_FANTASTIC
-	taste_description = "FIX ME"
+	taste_description = "creamy fluffy citrusy gin"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/french_75
 	name = "French 75"
-	description = "FIX ME"
+	description = "A sophisticated cocktail made by strengthening champagne with gin, then flavoring with lemon juice and sugar."
 	boozepwr = 30
 	color = "#ffffc1"
 	quality = DRINK_GOOD
-	taste_description = "FIX ME"
+	taste_description = "glory and gunnery"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/sangria
 	name = "Sangria"
-	description = "FIX ME"
+	description = "A blood-red wine punch strengthened with liquor and sweetened with as much chopped fruit as one can get their hands on."
 	boozepwr = 20
 	color = "#c4383b"
 	quality = DRINK_GOOD
-	taste_description = "FIX ME"
+	taste_description = "refreshing fruity wine"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/suffering_bastard
 	name = "Suffering Bastard"
-	description = "FIX ME"
+	description = "A tiki style hangover cure made from ginger beer, spirits, and bitters."
 	boozepwr = 20
 	color = "#e8ca78"
 	quality = DRINK_VERYGOOD
-	taste_description = "FIX ME"
+	taste_description = "ginger-flavored recuperation"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/blue_blazer
 	name = "Blue Blazer"
-	description = "The signature drink of a legendary bartender from the 19th century. While undeniably impressive and aesthetically beautiful, at the end of the day it's really just warmed and sweetened whiskey. Not to be served if it's above fifty degrees farenheit outside, although that's not much of a concern on a space station."
+	description = "The signature drink of a legendary bartender from the 19th century. While remembered for how he innovated the art of bartending, at the end of the day this drink is really just warmed and sweetened whiskey."
 	boozepwr = 40
 	color = "#b5949b"
 	quality = DRINK_NICE
