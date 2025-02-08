@@ -1089,7 +1089,7 @@
 /datum/glass_style/drinking_glass/suffering_bastard
 	required_drink_type = /datum/reagent/consumable/ethanol/suffering_bastard
 	name = "Suffering Bastard"
-	desc = "Originally meant as a hangover cure for soldiers away from home, this tiki drink makes the odd combination of gin and cognac with ginger beer to remarkable effect."
+	desc = "Originally meant as a hangover cure for soldiers away from home, this tiki drink uses the odd combination of gin and cognac with ginger beer to remarkable effect."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "suffering_bastard"
 
