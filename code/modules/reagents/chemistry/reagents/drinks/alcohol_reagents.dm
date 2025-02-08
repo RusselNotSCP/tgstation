@@ -2931,7 +2931,7 @@
 
 /datum/reagent/consumable/ethanol/amaretto_sour
 	name = "Amaretto Sour"
-	description = "The sour formula applied to sweet amaretto."
+	description = "A sour made with sweet amaretto."
 	boozepwr = 15
 	color = "#ddc28b"
 	quality = DRINK_VERYGOOD
