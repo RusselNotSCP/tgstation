@@ -660,6 +660,7 @@
 /datum/chemical_reaction/drink/boston_sour
 	results = list(/datum/reagent/consumable/ethanol/boston_sour = 15)
 	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey_sour = 15, /datum/reagent/consumable/eggwhite = 2)
+	mix_message = "A frothy head forms over the mixture."
 
 /datum/chemical_reaction/drink/star
 	results = list(/datum/reagent/consumable/ethanol/star = 12)
@@ -667,19 +668,23 @@
 
 /datum/chemical_reaction/drink/old_fashioned
 	results = list(/datum/reagent/consumable/ethanol/old_fashioned = 10)
-	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 8, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/ethanol/bitters = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 7, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/ethanol/bitters = 1)
+	mix_message = "The sugar dissolves into the bitters and whiskey."
 
 /datum/chemical_reaction/drink/sazerac
 	results = list(/datum/reagent/consumable/ethanol/sazerac = 10)
 	required_reagents = list(/datum/reagent/consumable/ethanol/old_fashioned = 10, /datum/reagent/consumable/ethanol/absinthe = 1)
+	mix_message = "The mixture takes on a pleasing pink hue."
 
 /datum/chemical_reaction/drink/amaretto_sour
 	results = list(/datum/reagent/consumable/ethanol/amaretto_sour = 15)
 	required_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 10, /datum/reagent/consumable/lemonjuice = 5, /datum/reagent/consumable/eggwhite = 2)
-
+	mix_message = "A frothy head forms over the mixture."
+	
 /datum/chemical_reaction/drink/ramos_gin_fizz
 	results = list(/datum/reagent/consumable/ethanol/ramos_gin_fizz = 25)
-	required_reagents = list(/datum/reagent/consumable/ethanol/ginfizz = 12, /datum/reagent/consumable/lemonjuice = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/eggwhite = 3, /datum/reagent/consumable/cream = 3, /datum/reagent/consumable/ethanol/triple_sec = 1)
+	required_reagents = list(/datum/reagent/consumable/ethanol/ginfizz = 12, /datum/reagent/consumable/lemonjuice = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/eggwhite = 3, /datum/reagent/consumable/cream = 3, /datum/reagent/consumable/ethanol/triple_sec = 1) //yes, this is intentionally a pain in the ass
+	mix_message = "The drink starts to form a rising head of foam, that begins to creep out of the top of the glass."
 
 /datum/chemical_reaction/drink/french_75
 	results = list(/datum/reagent/consumable/ethanol/french_75 = 10)
