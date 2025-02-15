@@ -2976,19 +2976,12 @@
 
 /datum/reagent/consumable/ethanol/suffering_bastard/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
-	var/healamount = max(0.5 - round(0.01 * (affected_mob.getorganloss()), 0.1), 0) //base of 0.5 healing per cycle and loses 0.1 healing for every 10 combined brute/burn damage you have
-	var/need_mob_update
-	need_mob_update = affected_mob.adjustOrganLoss(ORGAN_SLOT_BRAIN, -healamount * REM * seconds_per_tick, updating_health = FALSE, required_bodytype = affected_bodytype)
-	if(need_mob_update)
-		return UPDATE_MOB_HEALTH
-	//unsure if "getorganloss" or anything like that is a thing. Might need to do this some other way than just copying grani.
-	//honestly, is it even nessecary for this to be as bad as I'm making it? it's not like mannitol is hard to make.
-		
-/datum/reagent/consumable/ethanol/suffering_bastard/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
-	. = ..()
+	//removes disgust, same with sol dry
 	affected_mob.adjust_disgust(-5 * REM * seconds_per_tick)
-	//unsure if this should be combined with the thing above?
-
+	//this is litterally copy-pasted from mannitol with the healing amount changed, not sure if there's a better way of doing this.
+	if(affected_mob.adjustOrganLoss(ORGAN_SLOT_BRAIN, -0.5 * REM * seconds_per_tick * normalise_creation_purity(), required_organ_flag = affected_organ_flags))
+		return UPDATE_MOB_HEALTH
+		
 /datum/reagent/consumable/ethanol/blue_blazer
 	name = "Blue Blazer"
 	description = "The signature drink of a legendary bartender from the 19th century. While remembered for how he innovated the art of bartending, at the end of the day this drink is really just warmed and sweetened whiskey."
