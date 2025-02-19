@@ -685,7 +685,7 @@
 	results = list(/datum/reagent/consumable/ethanol/ramos_gin_fizz = 25)
 	//yes, this is intentionally a pain in the ass
 	required_reagents = list(/datum/reagent/consumable/ethanol/ginfizz = 12, /datum/reagent/consumable/lemonjuice = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/eggwhite = 3, /datum/reagent/consumable/cream = 3, /datum/reagent/consumable/ethanol/triple_sec = 1) 
-	mix_message = "The drink starts to form a rising head of foam, that begins to creep out of the top of the glass."
+	mix_message = "The drink forms a rising head of foam that begins to creep out of the top of the glass."
 
 /datum/chemical_reaction/drink/french_75
 	results = list(/datum/reagent/consumable/ethanol/french_75 = 10)
@@ -698,3 +698,17 @@
 /datum/chemical_reaction/drink/suffering_bastard
 	results = list(/datum/reagent/consumable/ethanol/suffering_bastard = 20)
 	required_reagents = list(/datum/reagent/consumable/sol_dry = 10, /datum/reagent/consumable/ethanol/cognac = 3, /datum/reagent/consumable/ethanol/gin = 3, /datum/reagent/consumable/limejuice = 2, /datum/reagent/consumable/ethanol/bitters = 1, /datum/reagent/consumable/sugar = 1)
+
+/datum/chemical_reaction/drink/hot_toddy
+	results = list(/datum/reagent/consumable/ethanol/hot_toddy = 10)
+	required_reagents = list(/datum/reagent/water = 5, /datum/reagent/consumable/ethanol/cognac = 3, /datum/reagent/consumable/sugar = 1, /datum/reagent/consumable/lemonjuice = 1)
+	mix_message = "The scent of warm cognac fills the air."
+	required_temp = 320 //Pour boiling water into other ingredients
+
+/datum/chemical_reaction/drink/bitters_soda
+	results = list(/datum/reagent/consumable/ethanol/bitters_soda = 16)
+	required_reagents = list(/datum/reagent/water = 10, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/ethanol/bitters = 1)
+
+/datum/chemical_reaction/drink/tizirian_sour
+	results = list(/datum/reagent/consumable/ethanol/tizirian_sour = 8)
+	required_reagents = list(/datum/reagent/consumable/ethanol/bitters = 3, /datum/reagent/consumable/lemonjuice = 2, /datum/reagent/consumable/korta_nectar = 2, /datum/reagent/consumable/sugar = 1)	

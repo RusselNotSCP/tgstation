@@ -1100,6 +1100,28 @@
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "blue_blazer"
 
+/datum/glass_style/drinking_glass/hot_toddy
+	required_drink_type = /datum/reagent/consumable/ethanol/hot_toddy
+	name = "Hot Toddy"
+	desc = ""
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "hot_toddy"
+
+/datum/glass_style/drinking_glass/bitters_soda
+	required_drink_type = /datum/reagent/consumable/ethanol/bitters_soda
+	name = "Bitters and Soda"
+	desc = ""
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "bitters_soda"
+
+/datum/glass_style/drinking_glass/tizirian_sour
+	required_drink_type = /datum/reagent/consumable/ethanol/tizirian_sour
+	name = "Tizirian Sour"
+	desc = ""
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "tizirian_sour"
+
+
 // Shot glasses
 
 /datum/glass_style/shot_glass/toxins_special

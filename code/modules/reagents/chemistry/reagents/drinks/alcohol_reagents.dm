@@ -2990,6 +2990,45 @@
 	quality = DRINK_NICE
 	taste_description = "scorched sweet whiskey"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	
+/datum/reagent/consumable/ethanol/blue_blazer/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	affected_mob.adjust_bodytemperature(25 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * seconds_per_tick, 0, affected_mob.get_body_temp_normal())
+
+/datum/reagent/consumable/ethanol/hot_toddy
+	name = "Hot Toddy"
+	description = ""
+	boozepwr = 25
+	color = "#f2d2b4"
+	quality = DRINK_GOOD
+	taste_description = ""
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/hot_toddy/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	affected_mob.adjust_bodytemperature(25 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * seconds_per_tick, 0, affected_mob.get_body_temp_normal())
+	
+/datum/reagent/consumable/ethanol/bitters_soda
+	name = "Bitters and Soda"
+	description = ""
+	boozepwr = 0
+	color = "#f1c1b3"
+	quality = DRINK_NICE
+	taste_description = "mild aromatics"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	
+/datum/reagent/consumable/ethanol/bitters_soda/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	affected_mob.adjust_disgust(-5 * REM * seconds_per_tick)
+
+/datum/reagent/consumable/ethanol/tizirian_sour
+	name = "Tizirian Sour"
+	description = ""
+	boozepwr = 35
+	color = "#9b4b3a"
+	quality = DRINK_VERYGOOD
+	taste_description = "sweetened and spiced bitterness"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER
