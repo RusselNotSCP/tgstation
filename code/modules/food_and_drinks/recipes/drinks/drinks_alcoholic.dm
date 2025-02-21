@@ -707,7 +707,7 @@
 
 /datum/chemical_reaction/drink/bitters_soda
 	results = list(/datum/reagent/consumable/ethanol/bitters_soda = 16)
-	required_reagents = list(/datum/reagent/water = 10, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/ethanol/bitters = 1)
+	required_reagents = list(/datum/reagent/consumable/sodawater = 10, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/ethanol/bitters = 1)
 
 /datum/chemical_reaction/drink/tizirian_sour
 	results = list(/datum/reagent/consumable/ethanol/tizirian_sour = 8)

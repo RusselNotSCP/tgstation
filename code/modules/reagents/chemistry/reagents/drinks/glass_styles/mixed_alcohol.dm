@@ -1103,21 +1103,21 @@
 /datum/glass_style/drinking_glass/hot_toddy
 	required_drink_type = /datum/reagent/consumable/ethanol/hot_toddy
 	name = "Hot Toddy"
-	desc = ""
+	desc = "Transports you away from the cold of whatever sub-zero hellhole you're in, if only for a moment."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "hot_toddy"
 
 /datum/glass_style/drinking_glass/bitters_soda
 	required_drink_type = /datum/reagent/consumable/ethanol/bitters_soda
 	name = "Bitters and Soda"
-	desc = ""
+	desc = "A milder, dryer alternative to ginger beer for the task of settling rumbling tummies. Technically contains alcohol, but in low enough concentrations that children or the pregnant can enjoy without worrying."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "bitters_soda"
 
 /datum/glass_style/drinking_glass/tizirian_sour
 	required_drink_type = /datum/reagent/consumable/ethanol/tizirian_sour
 	name = "Tizirian Sour"
-	desc = ""
+	desc = "From Trinidad to Tobago to Tiziria, it's quite rare to find a cocktail that uses bitters as a base spirit like this."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "tizirian_sour"
 

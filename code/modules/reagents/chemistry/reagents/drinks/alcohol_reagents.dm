@@ -2997,11 +2997,11 @@
 
 /datum/reagent/consumable/ethanol/hot_toddy
 	name = "Hot Toddy"
-	description = ""
+	description = "A warmed blend of spirits, sugar, and spices. While the concept is ancient, this preparation with cognac and refined sugar is a bit more modern."
 	boozepwr = 25
 	color = "#f2d2b4"
 	quality = DRINK_GOOD
-	taste_description = ""
+	taste_description = "the warmth of a comfy fireplace"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/hot_toddy/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
@@ -3010,7 +3010,7 @@
 	
 /datum/reagent/consumable/ethanol/bitters_soda
 	name = "Bitters and Soda"
-	description = ""
+	description = "A simple beverage of soda water flavored with aromatic bitters. Soothes upset stomachs."
 	boozepwr = 0
 	color = "#f1c1b3"
 	quality = DRINK_NICE
@@ -3023,7 +3023,7 @@
 
 /datum/reagent/consumable/ethanol/tizirian_sour
 	name = "Tizirian Sour"
-	description = ""
+	description = "A twist on a trinidad sour, using korta nectar in place of orgeat. Despite the name, it was invented by a martian barkeep."
 	boozepwr = 35
 	color = "#9b4b3a"
 	quality = DRINK_VERYGOOD
