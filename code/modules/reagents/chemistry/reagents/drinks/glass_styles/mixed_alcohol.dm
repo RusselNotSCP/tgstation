@@ -1107,13 +1107,6 @@
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "hot_toddy"
 
-/datum/glass_style/drinking_glass/bitters_soda
-	required_drink_type = /datum/reagent/consumable/ethanol/bitters_soda
-	name = "Bitters and Soda"
-	desc = "A milder, dryer alternative to ginger beer for the task of settling rumbling tummies. Technically contains alcohol, but in low enough concentrations that children or the pregnant can enjoy without worrying."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
-	icon_state = "bitters_soda"
-
 /datum/glass_style/drinking_glass/tizirian_sour
 	required_drink_type = /datum/reagent/consumable/ethanol/tizirian_sour
 	name = "Tizirian Sour"

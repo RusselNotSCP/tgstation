@@ -3008,19 +3008,6 @@
 /datum/reagent/consumable/ethanol/hot_toddy/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
 	affected_mob.adjust_bodytemperature(25 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * seconds_per_tick, 0, affected_mob.get_body_temp_normal())
-	
-/datum/reagent/consumable/ethanol/bitters_soda
-	name = "Bitters and Soda"
-	description = "A simple beverage of soda water flavored with aromatic bitters. Soothes upset stomachs."
-	boozepwr = 0
-	color = "#f1c1b3"
-	quality = DRINK_NICE
-	taste_description = "mild aromatics"
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-	
-/datum/reagent/consumable/ethanol/bitters_soda/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
-	. = ..()
-	affected_mob.adjust_disgust(-5 * REM * seconds_per_tick)
 
 /datum/reagent/consumable/ethanol/tizirian_sour
 	name = "Tizirian Sour"

@@ -705,10 +705,6 @@
 	mix_message = "The scent of warm cognac fills the air."
 	required_temp = 320 //Pour boiling water into other ingredients
 
-/datum/chemical_reaction/drink/bitters_soda
-	results = list(/datum/reagent/consumable/ethanol/bitters_soda = 16)
-	required_reagents = list(/datum/reagent/consumable/sodawater = 10, /datum/reagent/consumable/ice = 5, /datum/reagent/consumable/ethanol/bitters = 1)
-
 /datum/chemical_reaction/drink/tizirian_sour
 	results = list(/datum/reagent/consumable/ethanol/tizirian_sour = 8)
 	required_reagents = list(/datum/reagent/consumable/ethanol/bitters = 3, /datum/reagent/consumable/lemonjuice = 2, /datum/reagent/consumable/korta_nectar = 2, /datum/reagent/consumable/sugar = 1)	
