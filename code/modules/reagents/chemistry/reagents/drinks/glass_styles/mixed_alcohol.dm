@@ -1114,6 +1114,13 @@
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "tizirian_sour"
 
+/datum/glass_style/drinking_glass/daiquiri
+	required_drink_type = /datum/reagent/consumable/ethanol/daiquiri
+	name = "Daiquiri"
+	desc = "Pure, simple, natural. A cuban classic."
+	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	icon_state = "daiquiri"
+
 
 // Shot glasses
 
