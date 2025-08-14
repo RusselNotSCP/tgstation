@@ -1082,7 +1082,7 @@
 /datum/glass_style/drinking_glass/sangria
 	required_drink_type = /datum/reagent/consumable/ethanol/sangria
 	name = "Sangria"
-	desc = "A fruit-infused wine punch that is a perfect beverage to drink out of the largest wine glass you can get on a hot summer day. The name being a reference to bloodletting is hopefully just a reference to the color."
+	desc = "A wine punch for hot summer days. No bloodletting is involved in it's creation, one hopes."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "sangria"
 
