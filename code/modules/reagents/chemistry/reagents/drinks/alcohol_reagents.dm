@@ -3045,5 +3045,35 @@
 	if(prob(10))
 		drinker.emote("flip")
 
+/datum/reagent/consumable/ethanol/aperitivo
+	name = "Aperitivo Liqueur"
+	description = "An agressively bittersweet liqueur flavored with quinine and other botanicals. Perfect for stimulating one's appetite or fighting off malaria."
+	boozepwr = 40
+	color = "#bf1038"
+	taste_description = "intense citrusy bitterness"
+	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/aperitivo/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
+	. = ..()
+	drinker.adjust_nutrition(-5 * REM * seconds_per_tick)
+	drinker.overeatduration = 0
+
+/datum/reagent/consumable/ethanol/herbal_liqueur
+	name = "Herbal Liqueur"
+	description = "A liqueur made with a wide variety of herbs and spices, infused into spirit through both distillation and maceration. So many, in fact, that trying to pick them out by scent and taste seems nearly impossible..."
+	boozepwr = 75
+	color = "#95be7dff"
+	quality = DRINK_NICE
+	taste_description = "confounding herbaceousness"
+	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/maraschino
+	name = "Maraschino Liqueur"
+	description = "A classic sweet liqueur made from the fruits, leaves, and even branches of sour cherries. Surprisingly, it doesn't actually taste much like cherry."
+	boozepwr = 50
+	color = "#DDDDDD"
+	taste_description = "nutty sweetness"
+	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER
