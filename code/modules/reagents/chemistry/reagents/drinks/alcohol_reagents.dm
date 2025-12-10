@@ -3048,7 +3048,7 @@
 
 /datum/reagent/consumable/ethanol/aperitivo
 	name = "Aperitivo Liqueur"
-	description = "An agressively bittersweet liqueur flavored with quinine and other botanicals. Perfect for stimulating one's appetite or fighting off malaria."
+	description = "An agressively bittersweet liqueur flavored with cinchona bark and other botanicals. Perfect for stimulating one's appetite or fighting off malaria."
 	boozepwr = 40
 	color = "#bf1038"
 	taste_description = "intense citrusy bitterness"
