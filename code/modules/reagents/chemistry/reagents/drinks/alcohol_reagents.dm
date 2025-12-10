@@ -3052,7 +3052,7 @@
 	boozepwr = 40
 	color = "#bf1038"
 	taste_description = "intense citrusy bitterness"
-	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/aperitivo/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -3066,7 +3066,7 @@
 	color = "#95be7dff"
 	quality = DRINK_NICE
 	taste_description = "confounding herbaceousness"
-	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/maraschino
 	name = "Maraschino Liqueur"
@@ -3074,7 +3074,7 @@
 	boozepwr = 50
 	color = "#DDDDDD"
 	taste_description = "nutty sweetness"
-	chemical_flag = REAGENT_CAN_BE_SYNTHESIZED
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER
