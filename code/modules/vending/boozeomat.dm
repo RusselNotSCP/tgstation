@@ -35,6 +35,8 @@
 				/obj/item/reagent_containers/cup/glass/bottle/coconut_rum = 5,
 				/obj/item/reagent_containers/cup/glass/bottle/yuyake = 5,
 				/obj/item/reagent_containers/cup/glass/bottle/shochu = 5,
+				/obj/item/reagent_containers/cup/glass/bottle/aperitivo = 5,
+				/obj/item/reagent_containers/cup/glass/bottle/maraschino = 5,
 				/obj/item/reagent_containers/cup/soda_cans/beer = 10,
 				/obj/item/reagent_containers/cup/soda_cans/beer/rice = 10,
 			),
@@ -81,6 +83,7 @@
 		/obj/item/reagent_containers/cup/glass/bottle/champagne = 5,
 		/obj/item/reagent_containers/cup/glass/bottle/trappist = 5,
 		/obj/item/reagent_containers/cup/glass/bottle/bitters = 5,
+		/obj/item/reagent_containers/cup/glass/bottle/herbal_liqueur = 5,
 	)
 
 	product_slogans = "I hope nobody asks me for a bloody cup o' tea...;Alcohol is humanity's friend. Would you abandon a friend?;Quite delighted to serve you!;Is nobody thirsty on this station?"
