@@ -890,7 +890,7 @@
 
 /obj/item/reagent_containers/cup/glass/bottle/maraschino
 	name = "Dalmazia Originale Maraschino Liqueur"
-	desc = "A small note on the back of the bottle instructs all customer complains about a lack of cherry flavor be directed to what looks like a defunct phone number."
+	desc = "A small note on the back of the bottle instructs all customer complaints about a lack of cherry flavor be directed to what looks like a defunct phone number."
 	icon_state = "maraschino_bottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/maraschino = 100)
 	drink_type = ALCOHOL
