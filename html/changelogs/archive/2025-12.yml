@@ -372,3 +372,102 @@
       "halt", "shush", "listen", "think", "beckon", "airquote", "crazy", "squint",
       "rub".
   - bugfix: Fix closets, crates, and drawers missing material tags
+2025-12-11:
+  ArchBTW:
+  - bugfix: Fix RMB crowbar consistency for doors
+  - spellcheck: Removed obsolete morph tip of the round
+  - balance: 'Canned ink: Remove uncatchable & paralyze. Lower stagger & blind'
+  Fghj240:
+  - bugfix: Rescue modsuit suit storage can hold anything the medical modsuit suit
+      storage can hold
+  - spellcheck: updated quadruple amputee to mention newer healing items
+  - spellcheck: fixed a missing e in sleeping carp's recall teachings verb
+  Melbert:
+  - balance: Romerol, when applied via touch or vapor, is now guaranteed to infect
+      when using >=1u. (Prior, it had a % chance of infecting equal to the amount
+      of chemicals use - so 1u meant 1% chance to infect.) Other methods of applying
+      Romerol are unaffected (ingesting or injecting any amount is still a guaranteed
+      infection).
+  MrMelbert, Zergspower:
+  - qol: The world is now heavily desaturated while blind, rather than pure monochrome,
+      to give players some visual stimulus
+  - qol: When blind, the brief flicker of the entire screen now only appears for mobs
+      temporarily blinded - ie, mobs blinded from quirk / trauma / genetic mutation
+      no longer experience it
+  Shadow-Quill:
+  - spellcheck: Corrected the spelling of department in the message monitor console.
+  TealSeer:
+  - bugfix: fixed mulebot speed wire max steps being swapped
+  lelandkemble:
+  - spellcheck: Tuberculosis no longer tells naked people to get naked
+  - bugfix: Revenant objectives can only target people that are actually present
+  timothymtorres:
+  - rscadd: Installing camera upgrades now consumes more power. Installing several
+      upgrades onto the same camera has a power multiplier effect that stacks.
+  - bugfix: Fix disabled cameras consuming power
+  xPokee:
+  - spellcheck: The Scrubs, MD abduction spy bounty now has the proper name.
+2025-12-13:
+  ArchBTW:
+  - bugfix: Fix clicking on things underneath directional firelocks
+  Ezel:
+  - map: Engineering deliveries now go to the techlathe room on Deltastation
+  Fghj240:
+  - qol: ear protection is visible on examine
+  - qol: hearing protection modsuit module is now built in
+  Jacquerel:
+  - rscadd: When the game considers it to be Christmas, Cargo can order additional
+      Christmas gifts pre-addressed to random crew members.
+  Rockdtben:
+  - qol: Hold ALT + CLICK and drag a UI window. Provides a work around for stuck uplink
+      UI
+  - qol: 'A new verb under OOC: Reset UI Positions -> Which you can use to fix a stuck
+      uplink UI as well.'
+  TealSeer:
+  - bugfix: fixed disposal unit light not turning on when dumping bag contents inside
+  Thunder12345:
+  - bugfix: Posters printed from the library are no longer poorly coded and ugly.
+  - bugfix: Posters printed from the library will no longer go up in the wrong places.
+  - bugfix: Posters now show their name correctly when rolled up.
+  - bugfix: Random posters will no longer remain random after being put up for the
+      first time.
+  - bugfix: Spacemen now know how to hang posters correctly, and the majority of poster
+      sprites will no longer sit on the floor.
+  alien3301:
+  - rscadd: '"Department Budget" access that lets someone place orders with the NT
+      shopping app'
+  - qol: Warden starts with the shopping app installed
+  - balance: Cargo techs and Warden can place orders with the shopping app by default
+  jlsnow301:
+  - rscdel: Removed the TGUI kitchensink component view
+  - rscadd: Added a new data explorer for TGUI dev mode
+2025-12-14:
+  ArchBTW:
+  - bugfix: Fix not being able to drag click things on tram floor
+  - bugfix: Fix stacking flash assemblies
+  - bugfix: Fix nightmare not properly snuffing dragged lights if other lights were
+      turned on simultaneously
+  - balance: Heavy pirate's armored pirate coat can hold the same items that standard
+      armor can.
+  - bugfix: Gives eligible sentient simplemobs a stamina hud
+  Geoengi:
+  - rscadd: Robot customers and mech wreckage destruction are messier. Bring a mop!
+  Hatterhat:
+  - bugfix: Non-base laser guns now attach their lore properly.
+  - spellcheck: Adjusted the names on the laser guns to have a slash between the numeric
+      type/version and the variant... abbreviation? Letter? One of the two.
+  - spellcheck: Fixed some typos and adjusted the now-visible lore on the laser guns
+      to read a little nicer, theoretically. Whether the grammar tweaks improved anything
+      or not is subjective.
+  LT3:
+  - code_imp: Clausophobia is now only triggered by a properly dressed Santa Claus
+  SmArtKar:
+  - bugfix: Fixed purple raptors' wings action background
+  TealSeer:
+  - rscadd: Added a key memory to the family heirloom quirk
+  krookodilehunter:
+  - qol: Wirecutters are now recolorable when purchasing from a vendor
+  lelandkemble:
+  - rscadd: Added a counterattack for sheathed weapons. When used, an attack from
+      your target within a one-second window will cause you to counterattack with
+      a triple-damage strike.
