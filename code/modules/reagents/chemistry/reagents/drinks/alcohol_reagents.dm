@@ -3076,5 +3076,125 @@
 	taste_description = "nutty sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/bartenders_handshake
+	name = "Bartender's Handshake"
+	description = "A tradition of somewhat inconsistent providence that may have something to do with an obscure challenge-coin based marketing scheme, this drink is a way for bartenders to greet and test each other's mettle via a drink that only a fellow barkeep could appreciate. While there are nearly as many versions of this drink as there are bars, this version tests one's palate by combining two of the most bitter ingredients you're likely to find in a bar."
+	boozepwr = 50
+	color = "#8d0c0cff"
+	taste_description = "pretentious bitterness"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/brandy_crusta
+	name = "Brandy Crusta"
+	description = "The far more gussied up ancestor of the Sidecar, this heavily garnished cocktail is the grandparent of many essential drinks served today."
+	boozepwr = 30
+	color = "#f8c51cff"
+	taste_description = "orangy sweetness"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/casino
+	name = "Casino"
+	description = "A gin-heavy classic. Juniper is tempered by scant amounts of citrus and sweetened with liqueur."
+	boozepwr = 50
+	color = "#fdee65ff"
+	taste_description = "sweet juniper"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/garibaldi
+	name = "Garibaldi"
+	description = "Named for the 19th century Italian general, the red-orange color scheme of this drink mimics the shirts of those who followed him into battles all across the world."
+	boozepwr = 15
+	color = "#f77e2eff"
+	taste_description = "bitter oranges"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/improved_whiskey
+	name = "Improved Whiskey Cocktail"
+	description = "The Classic Whiskey cocktail improved by the addition of absinthe and maraschino, as well as swapping the typical orange peel garnish for lemon."
+	boozepwr = 65
+	color = "#b8a385ff"
+	taste_description = "nutty anise-scented whiskey"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/jungle_bird
+	name = "Jungle Bird"
+	description = "This late-tiki concoction leverages the brilliant combination of bitter liqueur and pineapple juice to make a remarkably well-balanced cocktail."
+	boozepwr = 25
+	color = "#dab870ff"
+	taste_description = "pineapple and quinine"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/last_word
+	name = "Last Word"
+	description = "Despite being invented at the turn of the 20th century, this drink fell into obscurity until the cocktail renaissance of the beginning of the 21st, where it then went on to dominate bars and inspire countless twists upon its formula."
+	boozepwr = 50
+	color = "#dddfcaff"
+	taste_description = "herbal finality"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/mary_pickford
+	name = "Mary Pickford"
+	description = "Named after an early 20th century film star, this cocktail takes a rum and pineapple flavor profile and presents it in a classier and more elegant form than one would typically expect."
+	boozepwr = 35
+	color = "#f7b7a7ff"
+	taste_description = "elegant pineapple"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/negroni
+	name = "Negroni"
+	description = "An iconic Italian aperitif, its simple intensity crowns it as perhaps the ultimate bitter cocktail. Supposedly it was named after an Italian count who wanted a stronger version of a spritz and asked his bartender to replace soda with gin."
+	boozepwr = 50
+	color = "#cf0e00ff"
+	taste_description = "bittersweet vermouth"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/nuclear_daiquiri
+	name = "Nuclear daiquiri"
+	description = "Overproof, funky, pot still rum and herbal liqueur takes the simple elegance of a Cuban daiquiri and turns it on its head"
+	boozepwr = 65
+	color = "#22cc22"
+	taste_description = "hogo and herbs"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/nuclear_daiquiri_thermo
+	name = "Thermonuclear Daiquiri"
+	description = "A drink for those who enjoy the gnarlier things in life, like high ester rums and Cobalt 60."
+	boozepwr = 80
+	color = "#00dd00"
+	taste_description = "approximately 3.6 roentgen"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/poets_dream
+	name = "Poet's Dream"
+	description = "This cocktail takes a classic martini base and twists it into a deliciously sweet and herbal mode. Nanotrasen regulations state not to drink this too soon before sleep, or risk 'oneiric encroachment,' whatever that means."
+	boozepwr = 50
+	color = "#d4b14fff"
+	taste_description = "honeyed herbal gin"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/pousse_cafe
+	name = "Pousse Cafe"
+	description = "An aesthetically beautiful cocktail made from the careful and meticulous layering of various liquors. Extremely annoying to make."
+	boozepwr = 50
+	color = "#93cf33ff"
+	taste_description = "a cascade of varying liqueurs"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/spritz
+	name = "Spritz"
+	description = "This bittersweet and refreshing aperitif brings to mind the beautiful summer sunsets of venice."
+	boozepwr = 20
+	color = "#ee714bff"
+	taste_description = "bittersweet refreshment"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/vieux_carre
+	name = "Vieux Carré"
+	description = "One of the best of many great cocktails to come out of New Orleans, this drink does honor to that city's French Quarter both in name and in taste."
+	boozepwr = 60
+	color = "#b43110ff"
+	taste_description = "Creole hospitality"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER
