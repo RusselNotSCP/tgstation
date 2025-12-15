@@ -3081,6 +3081,7 @@
 	description = "A tradition of somewhat inconsistent providence that may have something to do with an obscure challenge-coin based marketing scheme, this drink is a way for bartenders to greet and test each other's mettle via a drink that only a fellow barkeep could appreciate. While there are nearly as many versions of this drink as there are bars, this version tests one's palate by combining two of the most bitter ingredients you're likely to find in a bar."
 	boozepwr = 50
 	color = "#8d0c0cff"
+	quality = DRINK_VERYGOOD
 	taste_description = "pretentious bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3098,6 +3099,7 @@
 	description = "The far more gussied up ancestor of the Sidecar, this heavily garnished cocktail is the grandparent of many essential drinks served today."
 	boozepwr = 30
 	color = "#f8c51cff"
+	quality = DRINK_VERYGOOD
 	taste_description = "orangy sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3106,6 +3108,7 @@
 	description = "A gin-heavy classic. Juniper is tempered by scant amounts of citrus and sweetened with liqueur."
 	boozepwr = 50
 	color = "#fdee65ff"
+	quality = DRINK_GOOD
 	taste_description = "sweet juniper"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3114,6 +3117,7 @@
 	description = "Named for the 19th century Italian general, the red-orange color scheme of this drink mimics the shirts of those who followed him into battles all across the world."
 	boozepwr = 15
 	color = "#f77e2eff"
+	quality = DRINK_GOOD
 	taste_description = "bitter oranges"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3122,6 +3126,7 @@
 	description = "The Classic Whiskey cocktail improved by the addition of absinthe and maraschino, as well as swapping the typical orange peel garnish for lemon."
 	boozepwr = 65
 	color = "#b8a385ff"
+	quality = DRINK_VERYGOOD
 	taste_description = "nutty anise-scented whiskey"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3130,6 +3135,7 @@
 	description = "This late-tiki concoction leverages the brilliant combination of bitter liqueur and pineapple juice to make a remarkably well-balanced cocktail."
 	boozepwr = 25
 	color = "#dab870ff"
+	quality = DRINK_VERYGOOD
 	taste_description = "pineapple and quinine"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3138,6 +3144,7 @@
 	description = "Despite being invented at the turn of the 20th century, this drink fell into obscurity until the cocktail renaissance of the beginning of the 21st, where it then went on to dominate bars and inspire countless twists upon its formula."
 	boozepwr = 50
 	color = "#dddfcaff"
+	quality = DRINK_VERYGOOD
 	taste_description = "herbal finality"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3146,6 +3153,7 @@
 	description = "Named after an early 20th century film star, this cocktail takes a rum and pineapple flavor profile and presents it in a classier and more elegant form than one would typically expect."
 	boozepwr = 35
 	color = "#f7b7a7ff"
+	quality = DRINK_GOOD
 	taste_description = "elegant pineapple"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3154,6 +3162,7 @@
 	description = "An iconic Italian aperitif, its simple intensity crowns it as perhaps the ultimate bitter cocktail. Supposedly it was named after an Italian count who wanted a stronger version of a spritz and asked his bartender to replace soda with gin."
 	boozepwr = 50
 	color = "#cf0e00ff"
+	quality = DRINK_GOOD
 	taste_description = "bittersweet vermouth"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3162,6 +3171,7 @@
 	description = "Overproof, funky, pot still rum and herbal liqueur takes the simple elegance of a Cuban daiquiri and turns it on its head"
 	boozepwr = 65
 	color = "#22cc22"
+	quality = DRINK_GOOD
 	taste_description = "hogo and herbs"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3170,6 +3180,7 @@
 	description = "A drink for those who enjoy the gnarlier things in life, like high ester rums and Cobalt 60."
 	boozepwr = 80
 	color = "#00dd00"
+	quality = DRINK_FANTASTIC
 	taste_description = "approximately 3.6 roentgen"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3178,6 +3189,7 @@
 	description = "This cocktail takes a classic martini base and twists it into a deliciously sweet and herbal mode. Nanotrasen regulations state not to drink this too soon before sleep, or risk 'oneiric encroachment,' whatever that means."
 	boozepwr = 50
 	color = "#d4b14fff"
+	quality = DRINK_GOOD
 	taste_description = "honeyed herbal gin"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3186,6 +3198,7 @@
 	description = "An aesthetically beautiful cocktail made from the careful and meticulous layering of various liquors. Extremely annoying to make."
 	boozepwr = 50
 	color = "#93cf33ff"
+	quality = DRINK_FANTASTIC
 	taste_description = "a cascade of varying liqueurs"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3194,6 +3207,7 @@
 	description = "This bittersweet and refreshing aperitif brings to mind the beautiful summer sunsets of venice."
 	boozepwr = 20
 	color = "#ee714bff"
+	quality = DRINK_GOOD
 	taste_description = "bittersweet refreshment"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -3202,6 +3216,7 @@
 	description = "One of the best of many great cocktails to come out of New Orleans, this drink does honor to that city's French Quarter both in name and in taste."
 	boozepwr = 60
 	color = "#b43110ff"
+	quality = DRINK_VERYGOOD
 	taste_description = "Creole hospitality"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
