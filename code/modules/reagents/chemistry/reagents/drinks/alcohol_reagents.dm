@@ -3166,6 +3166,11 @@
 	taste_description = "bittersweet vermouth"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/negroni/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
+	. = ..()
+	drinker.adjust_nutrition(-3 * REM * seconds_per_tick)
+	drinker.overeatduration = 0
+
 /datum/reagent/consumable/ethanol/nuclear_daiquiri
 	name = "Nuclear daiquiri"
 	description = "Overproof, funky, pot still rum and herbal liqueur takes the simple elegance of a Cuban daiquiri and turns it on its head"
@@ -3203,13 +3208,18 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/ethanol/spritz
-	name = "Spritz"
+	name = "Spritz" // If someone wants to add an elderflower spritz or something else like that, just rename this to spritz al bitter or whatever
 	description = "This bittersweet and refreshing aperitif brings to mind the beautiful summer sunsets of venice."
 	boozepwr = 20
 	color = "#ee714bff"
 	quality = DRINK_GOOD
 	taste_description = "bittersweet refreshment"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+/datum/reagent/consumable/ethanol/spritz/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
+	. = ..()
+	drinker.adjust_nutrition(-5 * REM * seconds_per_tick)
+	drinker.overeatduration = 0
 
 /datum/reagent/consumable/ethanol/vieux_carre
 	name = "Vieux Carré"
