@@ -3084,6 +3084,15 @@
 	taste_description = "pretentious bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+/datum/reagent/consumable/ethanol/bartenders_handshake/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
+	. = ..()
+	var/obj/item/organ/liver/liver = drinker.get_organ_slot(ORGAN_SLOT_LIVER)
+	if(HAS_TRAIT(liver, TRAIT_BARTENDER_METABOLISM))
+		if(drinker.heal_bodypart_damage(brute = 1 * REM * seconds_per_tick, burn = 1 * REM * seconds_per_tick, updating_health = FALSE))
+			. = UPDATE_MOB_HEALTH
+	else
+		drinker.adjust_disgust(2 * REM * seconds_per_tick)
+
 /datum/reagent/consumable/ethanol/brandy_crusta
 	name = "Brandy Crusta"
 	description = "The far more gussied up ancestor of the Sidecar, this heavily garnished cocktail is the grandparent of many essential drinks served today."
