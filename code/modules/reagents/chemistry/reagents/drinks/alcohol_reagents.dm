@@ -3175,7 +3175,7 @@
 
 /datum/reagent/consumable/ethanol/nuclear_daiquiri
 	name = "Nuclear daiquiri"
-	description = "Overproof, funky, pot still rum and herbal liqueur takes the simple elegance of a Cuban daiquiri and turns it on its head"
+	description = "Overproof, funky, pot still rum and herbal liqueur takes the simple elegance of a Cuban daiquiri and turns it on its head."
 	boozepwr = 65
 	color = "#22cc22"
 	quality = DRINK_GOOD
