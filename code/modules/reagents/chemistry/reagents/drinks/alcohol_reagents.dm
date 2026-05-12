@@ -3490,5 +3490,94 @@
 	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
+//Heretical drinks
+//Ash
+/datum/reagent/consumable/ethanol/watchmans_nightcap
+	name = "Watchman's Nightcap"
+	description = "A particular man used to always go to bed with a candle lit on his nightstand. You would too, if you knew what he knew."
+	boozepwr = 40
+	color = "#1DA7DD"
+	quality = DRINK_FANTASTIC
+	taste_description = "all that's in a flame alongside fire"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Blade
+/datum/reagent/consumable/ethanol/footsoldiers_razor
+	name = "Footsoldier's Razor"
+	description = "The drink of choice for an army that was slaughtered to the man, to be drunk on the morn of battle. 'Now, a drop. Soon, a torrent.'"
+	boozepwr = 60
+	color = "#563517"
+	quality = DRINK_FANTASTIC
+	taste_description = "bitterness seasoned by blood"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Cosmos
+/datum/reagent/consumable/ethanol/farstar_amrita
+	name = "Farstar Amrita"
+	description = "A wine for a decidedly different kind of communion."
+	boozepwr = 50
+	color = "#76276b"
+	quality = DRINK_FANTASTIC
+	taste_description = "the knowledge that something else is tasting with you"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Flesh
+/datum/reagent/consumable/ethanol/rubywise_ruin
+	name = "Rubywise Ruin"
+	description = "A ruddy liquor wrung from flowers - even when the flowers aren't red."
+	boozepwr = 70
+	color = "#DC143C"
+	quality = DRINK_FANTASTIC
+	taste_description = "wine that writhes"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Lock
+/datum/reagent/consumable/ethanol/openthroat_draught
+	name = "Open-Throat Draught"
+	description = "Supposedly, there is a tavern that exsists between the walls of our reality, where stray souls from all strange worlds gather. If such a bar truely exsists, it's patrons might drink this to facilitate friendly discussion."
+	boozepwr = 35
+	color = "#e4f38f"
+	quality = DRINK_FANTASTIC
+	taste_description = "your tongue splitting, then splitting again"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Moon
+/datum/reagent/consumable/ethanol/lunacy
+	name = "Lunacy"
+	description = "Many cocktail bars often seek to serve their clientele a vacation in a glass. Why not a vacation from sanity?"
+	boozepwr = 70
+	color = "#c4eef6"
+	quality = DRINK_FANTASTIC
+	taste_description = "something funny" //TODO:Make text spooky
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Rust
+/datum/reagent/consumable/ethanol/entropic_brew
+	name = "Entropic Brew"
+	description = "Beyond foul. This fluid is an affront to the very concept of ordered beauty. Not to be served in any vessel that can be corroded or oxidized... Or, frankly, served whatsoever."
+	boozepwr = 40
+	color = "#B7410E"
+	quality = DRINK_FANTASTIC
+	taste_description = "the end of everything"
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
+//Void
+/datum/reagent/consumable/ethanol/emptiest_glass
+	name = "Emptiest Glass"
+	description = "Every mundane instrument at your disposal concurs: there is nothing here. Why did you expect anything different?"
+	boozepwr = 1
+	color = "#000000"
+	quality = DRINK_FANTASTIC
+	taste_description = "..." //TODO: something better here
+	randomized_spawns = REAGENT_SPAWN_ALL_RANDOM_SPAWNS
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+
 #undef ALCOHOL_EXPONENT
 #undef ALCOHOL_THRESHOLD_MODIFIER
